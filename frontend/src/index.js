@@ -5,8 +5,7 @@ import ReactDOM from "react-dom";
 // add this import in frontend/src/index.js
 // add it before index.css import
 import "bootstrap/dist/css/bootstrap.css";
-// ...
-
+import "react-toastify/dist/ReactToastify.css";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Root from "./Root";
 import { Route, Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import Home from "./components/Home";
 
 import Signup from "./components/signup/Signup";
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <div>
         <Root>
+          <ToastContainer hideProgressBar={true} newestOnTop={true} />
           <Switch>
             <Route path="/signup" component={Signup} />
             <Route path="/login" component={Login} />
